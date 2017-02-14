@@ -1,6 +1,6 @@
-# typeahead.js-browserify
+# typeahead-1-browserify
 
-Make using [typeahead.js](http://twitter.github.io/typeahead.js/) with browserify a little easier. 
+Make using [typeahead.js](http://twitter.github.io/corejavascript/typeahead.js) with browserify a little easier. 
 
 The standard `typeahead.js` npm package doesn't expose Bloodhound, and loads it's jQuery plugin as soon as it's required. 
 
@@ -10,7 +10,7 @@ This package is just a small wrapper that allows you to access Bloodhound and lo
 
 Bloodhound: 
 ```javascript
-var Bloodhound = require("typeahead.js-browserify").Bloodhound 
+var Bloodhound = require("typeahead-1-browserify").Bloodhound 
 var engine = new Bloodhound({
   local: ['dog', 'pig', 'moose'],
   queryTokenizer: Bloodhound.tokenizers.whitespace,
@@ -22,6 +22,6 @@ For jQuery just `require` jquery, and then call `loadjQueryPlugin()`. typeahead.
 
 ```javascript
 var jQuery = require("jquery");
-var typeahead = require("typeahead.js-browserify");
+var typeahead = require("typeahead-1-browserify");
 typeahead.loadjQueryPlugin();
 ```

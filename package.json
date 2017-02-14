@@ -1,13 +1,13 @@
 {
   "dependencies": {
-    "typeahead.js": "^0.11.1"
+    "corejs-typeahead": "^1.*"
   },
-  "name": "typeahead.js-browserify",
+  "name": "typeahead-1-browserify",
   "version": "1.0.7",
-  "description": "Simple wrapper to making working with typeahead.js with browserify easier",
+  "description": "Simple wrapper to making working with corejs-typeahead with browserify easier",
   "main": "index.js",
   "devDependencies": {},
-  "repository": "https://github.com/nikvdp/typeahead.js-browserify",
+  "repository": "https://github.com/ednaldoneimeg/typeahead-1-browserify",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
