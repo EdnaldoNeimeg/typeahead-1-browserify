@@ -1,6 +1,6 @@
 # typeahead-1-browserify
 
-Make using [typeahead.js](http://twitter.github.io/corejavascript/typeahead.js) with browserify a little easier. 
+Make using [typeahead.js](https://github.com/corejavascript/typeahead.js) with browserify a little easier. 
 
 The standard `typeahead.js` npm package doesn't expose Bloodhound, and loads it's jQuery plugin as soon as it's required. 
 
